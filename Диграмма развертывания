@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-04-09T15:05:15.854Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="mc1slGWz30f9JFepwidB" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-09T15:06:31.290Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="6ErpfjFHopDOhw6FbN3U" version="21.1.5" type="github">
   <diagram name="Страница 1" id="bAbO5cjFHi53LrNIe_Xs">
-    <mxGraphModel dx="1960" dy="1194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1372" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="FNIp1taDg_MC0ggscVQz-1" value="Сервер" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="194" y="40" width="410" height="230" as="geometry" />
+          <mxGeometry x="194" y="40" width="546" height="230" as="geometry" />
         </mxCell>
         <mxCell id="FNIp1taDg_MC0ggscVQz-2" value="БД" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="464" y="150" width="110" height="80" as="geometry" />
@@ -18,6 +18,9 @@
               <mxPoint x="424" y="120" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="FNIp1taDg_MC0ggscVQz-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=110;exitDy=30;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=50;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="FNIp1taDg_MC0ggscVQz-4" target="FNIp1taDg_MC0ggscVQz-26">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FNIp1taDg_MC0ggscVQz-4" value="Сервисный слой" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="303" y="70" width="110" height="70" as="geometry" />
@@ -96,6 +99,9 @@
         </mxCell>
         <mxCell id="FNIp1taDg_MC0ggscVQz-17" value="WebSockets" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="344" y="175" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FNIp1taDg_MC0ggscVQz-26" value="Хранилище картинок" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="590" y="150" width="110" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
