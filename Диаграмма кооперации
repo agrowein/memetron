@@ -1,9 +1,168 @@
-<mxfile host="app.diagrams.net" modified="2023-04-02T18:55:15.589Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.2" etag="WRzWs6OBimIh8y8WuVwA" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-10T13:34:08.547Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="psVhiY3PSgT8aZrlTc98" version="21.1.5" type="github">
   <diagram name="Страница 1" id="wTv2GWdFzw-jMvxYVMBe">
-    <mxGraphModel>
+    <mxGraphModel dx="886" dy="1670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Fg7rX27Tok1jFlv3ROqU-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Fg7rX27Tok1jFlv3ROqU-1" target="Fg7rX27Tok1jFlv3ROqU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg7rX27Tok1jFlv3ROqU-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Fg7rX27Tok1jFlv3ROqU-1" target="Fg7rX27Tok1jFlv3ROqU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg7rX27Tok1jFlv3ROqU-1" value=":User" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="239" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg7rX27Tok1jFlv3ROqU-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="Fg7rX27Tok1jFlv3ROqU-2" target="Fg7rX27Tok1jFlv3ROqU-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg7rX27Tok1jFlv3ROqU-2" value=":Контроллер сессии" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="109" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg7rX27Tok1jFlv3ROqU-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="Fg7rX27Tok1jFlv3ROqU-3" target="Fg7rX27Tok1jFlv3ROqU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg7rX27Tok1jFlv3ROqU-3" value="Сервис игр" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="599" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg7rX27Tok1jFlv3ROqU-4" value="Сервис карт" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="599" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg7rX27Tok1jFlv3ROqU-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="Fg7rX27Tok1jFlv3ROqU-5" target="Fg7rX27Tok1jFlv3ROqU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg7rX27Tok1jFlv3ROqU-5" value="Игра" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="599" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fg7rX27Tok1jFlv3ROqU-12" value="1. Поиск игр" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;elbow=vertical;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry x="-0.2453" y="-49" width="80" relative="1" as="geometry">
+            <mxPoint x="279" y="240" as="sourcePoint" />
+            <mxPoint x="249" y="170" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg7rX27Tok1jFlv3ROqU-13" value="" style="html=1;verticalAlign=bottom;endArrow=open;elbow=vertical;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry x="-0.4667" y="-9" width="80" relative="1" as="geometry">
+            <mxPoint x="229" y="180" as="sourcePoint" />
+            <mxPoint x="259" y="250" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg7rX27Tok1jFlv3ROqU-14" value="1.1 Запрос игр" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="259" y="50" as="sourcePoint" />
+            <mxPoint x="339" y="50" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg7rX27Tok1jFlv3ROqU-15" value="" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="339" y="70" as="sourcePoint" />
+            <mxPoint x="259" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg7rX27Tok1jFlv3ROqU-16" value="2. Содать игру" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;elbow=vertical;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry x="0.069" y="70" width="80" relative="1" as="geometry">
+            <mxPoint x="209" y="270" as="sourcePoint" />
+            <mxPoint x="179" y="200" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg7rX27Tok1jFlv3ROqU-17" value="" style="html=1;verticalAlign=bottom;endArrow=open;elbow=vertical;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry x="-0.4667" y="-9" width="80" relative="1" as="geometry">
+            <mxPoint x="159" y="210" as="sourcePoint" />
+            <mxPoint x="189" y="280" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg7rX27Tok1jFlv3ROqU-18" value="2.1 Запрос создания игры" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="419" y="70" as="sourcePoint" />
+            <mxPoint x="499" y="70" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg7rX27Tok1jFlv3ROqU-20" value="2.2&amp;nbsp; Создать" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;elbow=vertical;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0667" y="-40" width="80" relative="1" as="geometry">
+            <mxPoint x="619" y="240" as="sourcePoint" />
+            <mxPoint x="619" y="390" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg7rX27Tok1jFlv3ROqU-21" value="" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;elbow=vertical;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="639" y="390" as="sourcePoint" />
+            <mxPoint x="639" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg7rX27Tok1jFlv3ROqU-24" value="2.3. Сгенерировать колоды&amp;nbsp;&amp;nbsp;" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;elbow=vertical;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.1429" y="-80" width="80" relative="1" as="geometry">
+            <mxPoint x="619" y="650" as="sourcePoint" />
+            <mxPoint x="619" y="720" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="619" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg7rX27Tok1jFlv3ROqU-25" value="" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;elbow=vertical;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="639" y="720" as="sourcePoint" />
+            <mxPoint x="639" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg7rX27Tok1jFlv3ROqU-28" value="3. Присоединиться" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;elbow=vertical;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.6" y="37" width="60" relative="1" as="geometry">
+            <mxPoint x="389" y="360" as="sourcePoint" />
+            <mxPoint x="459" y="420" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg7rX27Tok1jFlv3ROqU-30" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="449" y="430" as="sourcePoint" />
+            <mxPoint x="379" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg7rX27Tok1jFlv3ROqU-31" value="4. Установить статус готовности" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;elbow=vertical;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0118" y="39" width="60" relative="1" as="geometry">
+            <mxPoint x="499" y="450" as="sourcePoint" />
+            <mxPoint x="569" y="510" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg7rX27Tok1jFlv3ROqU-32" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="559" y="520" as="sourcePoint" />
+            <mxPoint x="489" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg7rX27Tok1jFlv3ROqU-33" value="5. Сделать ход" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;elbow=vertical;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.4824" y="-59" width="60" relative="1" as="geometry">
+            <mxPoint x="339" y="430" as="sourcePoint" />
+            <mxPoint x="409" y="490" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg7rX27Tok1jFlv3ROqU-34" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="399" y="500" as="sourcePoint" />
+            <mxPoint x="329" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg7rX27Tok1jFlv3ROqU-35" value="6. Поккинуть игру" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;elbow=vertical;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.4824" y="-59" width="60" relative="1" as="geometry">
+            <mxPoint x="479" y="520" as="sourcePoint" />
+            <mxPoint x="549" y="580" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fg7rX27Tok1jFlv3ROqU-36" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="539" y="590" as="sourcePoint" />
+            <mxPoint x="469" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
